@@ -1132,6 +1132,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.product.display_features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.product.display_features.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.product.display_system_features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.product.display_system_features.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.product.feature_multimedia_unique.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.product.feature_multimedia_unique.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.product.features_multimedia_common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.product.features_multimedia_common.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/refresh_rate_config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/refresh_rate_config.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/sys_dynamic_frame_config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sys_dynamic_frame_config.xml \
