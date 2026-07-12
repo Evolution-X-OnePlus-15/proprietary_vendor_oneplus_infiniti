@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/infiniti
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/infiniti/proprietary/odm/etc/AIMotion/q_384_192_l1_p0_t0_genshin.bin:$(TARGET_COPY_OUT_ODM)/etc/AIMotion/q_384_192_l1_p0_t0_genshin.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/AIMotion/q_384_192_l2_p0_t0_genshin.bin:$(TARGET_COPY_OUT_ODM)/etc/AIMotion/q_384_192_l2_p0_t0_genshin.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/PanelChaplin/3D-Lut_Center_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Center_P3.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/PanelChaplin/3D-Lut_Center_sRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Center_sRGB.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/PanelChaplin/3D-Lut_Enhance_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Enhance_P3.txt \
@@ -881,6 +883,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
+    vendor/oneplus/infiniti/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
@@ -906,6 +909,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
+    vendor/oneplus/infiniti/proprietary/odm/etc/init/occe_create.rc:$(TARGET_COPY_OUT_ODM)/etc/init/occe_create.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/libnfc-mtp-SN220.conf_24831:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_24831 \
     vendor/oneplus/infiniti/proprietary/odm/etc/libnfc-mtp-SN220.conf_24863:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_24863 \
@@ -1122,13 +1126,31 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/libpdCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam3.bin \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/infiniti/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/oneplus/infiniti/proprietary/product/etc/extension/com.oplus.oplus-feature.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/extension/com.oplus.oplus-feature.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/oplus_vrr_config.json:$(TARGET_COPY_OUT_PRODUCT)/etc/oplus_vrr_config.json \
+    vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.feature.android.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.feature.android.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.product.display_features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.product.display_features.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.product.display_system_features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.product.display_system_features.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.product.feature_multimedia_unique.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.product.feature_multimedia_unique.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/refresh_rate_config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/refresh_rate_config.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/sys_dynamic_frame_config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sys_dynamic_frame_config.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/display_brightness_app_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_brightness_app_list.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/display_brightness_config_P_3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_brightness_config_P_3.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/display_brightness_config_P_7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_brightness_config_P_7.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/display_frc_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_frc_white_list.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/infiniti/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/infiniti/proprietary/vendor/etc/ltm_config_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/ltm_config_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AD296_P_3_A0020_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/multimedia_display_adfr2minfps_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/multimedia_display_adfr2minfps_config.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/multimedia_display_brightness_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/multimedia_display_brightness_config.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/multimedia_display_feature_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/multimedia_display_feature_config.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/multimedia_display_trackpoint_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/multimedia_display_trackpoint_config.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/multimedia_display_uir_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/multimedia_display_uir_config.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/multimedia_display_voltage_limit.xml:$(TARGET_COPY_OUT_VENDOR)/etc/multimedia_display_voltage_limit.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/spr_cfg_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spr_cfg_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/spr_cfg_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spr_cfg_AD296_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
@@ -1512,6 +1534,7 @@ PRODUCT_PACKAGES += \
     libhwfenceclient \
     libhwliqinterface2 \
     libhwlispcffdump \
+    libiccprofile \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -1554,6 +1577,8 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libtfestriping \
     libubifocus \
+    libui-stock \
+    libutils-stock \
     libvideoml \
     libDLDPP_skel \
     libHexlpQnnHtp \
@@ -1631,6 +1656,7 @@ PRODUCT_PACKAGES += \
     libAlgoInterface \
     libAlgoProcess \
     libAncFilter \
+    libAncHumanSegFigureFusion \
     libAncSegBaseSdk \
     libAncSegmentSdk \
     libBasicTonePhoto \
@@ -1666,6 +1692,7 @@ PRODUCT_PACKAGES += \
     libOPLUSMotionDetection \
     libOplusPDCore \
     libOpo_awb \
+    libPDParamParser \
     libQnnCpu \
     libQnnGpu \
     libQnnHtp \
@@ -1811,4 +1838,5 @@ PRODUCT_PACKAGES += \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.cammidasservice-V1-service
+    vendor.oplus.hardware.cammidasservice-V1-service \
+    occe_create
