@@ -4,12 +4,9 @@
 
 soong_namespace {
     imports: [
-        "device/oneplus/sm8850-common",
-        "device/oneplus/infiniti",
         "hardware/oplus",
         "hardware/qcom-caf/sm8850",
         "vendor/oneplus/sm8850-common",
-        "vendor/oneplus/infiniti",
         "vendor/qcom/opensource/commonsys-intf/display",
     ],
 }
@@ -13835,6 +13832,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    allow_undefined_symbols: true,
     device_specific: true,
 }
 
@@ -17209,6 +17207,36 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libsharebuffer.so",
             ],
             shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsharebuffer_impl",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsharebuffer_impl.so",
+            ],
+            shared_libs: [
+                "libdmabufheap",
+                "libnativewindow",
+                "libui",
+                "libutils",
+                "libcutils",
                 "liblog",
                 "libc++",
                 "libc",
