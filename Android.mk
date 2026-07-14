@@ -32,7 +32,7 @@ $(call add-radio-file-sha1-checked,radio/shrm.img,14a45a941a19be55a62d07b99e120e
 $(call add-radio-file-sha1-checked,radio/soccp.img,c67c0fe3b3f5d6a361d63363a385c790e6a2b332)
 $(call add-radio-file-sha1-checked,radio/soccp_dcd.img,fd04e489a636e1839d7619985b3efd050aace0f2)
 $(call add-radio-file-sha1-checked,radio/soccp_debug.img,472900ddd15483c0fee10af765defdcb590d5a36)
-$(call add-radio-file-sha1-checked,radio/splash.img,a4ea88db9f5fb94a31e646c234c8b386205b5db4)
+$(call add-radio-file-sha1-checked,radio/splash.img,30f12d411984854585f11aaa034ce7b918af046c)
 $(call add-radio-file-sha1-checked,radio/spuservice.img,f7e7676e8582b3ff249f594ab6e78b1a2dbdaf74)
 $(call add-radio-file-sha1-checked,radio/tme_config.img,1bd28f983f9cdbd5a6c31f7b237c2e57c514c259)
 $(call add-radio-file-sha1-checked,radio/tme_fw.img,ea5b012ee7e70f10854213c94bb4c6def348b659)
