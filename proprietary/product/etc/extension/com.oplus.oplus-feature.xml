@@ -172,5 +172,7 @@
 	<oplus-feature name="oplus.software.radio.data_self_cure"/>
 	<oplus-feature name="oplus.software.radio.quark_traffic_policy_app_multitask_one_vs_one"/>
 	<oplus-feature name="oplus.hardware.display.allbrightness_colorappearance"/>
+	<oplus-feature name="oplus.software.radio.qoe_collaborative_center"/>
+	<oplus-feature name="oplus.hardware.face.alternate_face_support"/>
 </oplus-config>
-<!-- Timestamp 2026-05-29T23:36:51 #20c2f3b8-533c-4260-b6ad-4259fe91be2d -->
+<!-- Timestamp 2026-06-03T15:49:58 #1503507 -->

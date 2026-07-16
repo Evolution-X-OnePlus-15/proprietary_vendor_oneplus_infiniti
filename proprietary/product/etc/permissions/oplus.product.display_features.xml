@@ -32,8 +32,10 @@
     <oplus-feature name="oplus.software.display.enhance_brightness_with_uidimming" />
     <oplus-feature name="oplus.software.display.rgb_ball_support" />
 
-    <!-- Add for Game Color Enhance 1.0   -->
-    <oplus-feature name="oplus.software.display.game_color_enhance_1.0"/>
+    <!-- Add for Game Color Enhance 2.0 -->
+    <oplus-feature name="oplus.software.display.game_color_enhance_2.0"/>
+    <!-- Add for Game Fliter 2.0 -->
+    <oplus-feature name="oplus.software.display.game_filter_2.0"/>
 
     <!-- #ifdef OPLUS_FEATURE_EYE_PROTECT -->
     <oplus-feature name="oplus.software.display.intelligent_color_temperature_support" />
