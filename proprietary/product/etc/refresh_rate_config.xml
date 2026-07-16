@@ -5,7 +5,7 @@
      setting mode: auto  ,90hz     ,60hz  ,120hz
      refresh rate: 120hz ,default,  60hz  ,120hz
 -->
-<refresh_rate_config version="20260410">
+<refresh_rate_config version="20260601">
   <cameraOverride package="com.whatsapp" />
   <cameraOverride package="com.tencent.mm" />
   <cameraOverride package="com.tencent.mobileqq" />
@@ -2130,7 +2130,6 @@
   <item package="com.tencent.mobileqq" activity="com.tencent.aelight.camera.ae.flashshow.WinkHomeActivity" rateId="3-1-2-3" /> <!--QQ动态拍照-->
   <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.av.ui.VChatActivity" rateId="2-2-2-2" /> <!-- bug 2946142 qq通话页面 -->
   <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.avatar.dynamicavatar.DynamicAvatarRecordActivity" rateId="2-2-2-2" /> <!-- bug 717695 -->
-  <item package="com.youloft.calendar" activity="com.youloft.calendar/.WebActivity" rateId="2-2-2-2" /> <!--万年历中播放视频-->
   <item package="com.taobao.mobile.dipei" activity="com.taobao.mobile.dipei/com.alipay.mobile.nebulacore.ui.H5Activity" rateId="2-2-2-2" /> <!--口碑中视频播放-->
   <item package="com.Qunar" activity="com.Qunar/com.mqunar.hy.browser.activity.HyWebActivity01" rateId="2-2-2-2" /> <!--去哪旅行中视频播放-->
   <item package="com.yiban.app" activity="com.yiban.app/.activity.LightAppActivity" rateId="2-2-2-2" /> <!--易班中视频播放-->
